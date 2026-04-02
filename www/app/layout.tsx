@@ -36,10 +36,12 @@ export default function RootLayout({
       defaultTheme="system"
       enableSystem
       attribute="class">
-        <div className="pt-10 ml-20 ">
+        <div className="py-2 pl-20 border-b dark:border-b-gray-500 border-b-gray-200">
         <Navbar/>
         </div>
-        {children}
+        <div className="">
+          {children}
+        </div>
       </ThemeProvider>
       </body>
     </html>
