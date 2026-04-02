@@ -8,11 +8,11 @@ export const Navbar  = () =>{
     const {theme , setTheme , resolvedTheme} = useTheme();
 
     return(
-        <header className="w-full flex justify-center  ">
-            <nav className="max-w-2xl  w-full py-2 pl-4 ">
+        <header className="w-full flex justify-center ">
+            <nav className="max-w-2xl w-full py-2 md:pl-4 ">
                 <ul className="flex gap-2">
                    <Link href="/">
-                   <li className=" ">
+                   <li className="">
                         Home
                     </li>
                    </Link> 
@@ -21,7 +21,8 @@ export const Navbar  = () =>{
                    className="cursor-pointer"
                    >
                  {
-                    theme === "light" ? "dark" : "light"
+                    theme === "light" ? <p>Dark</p>
+                     : <p>Light</p>
                  }
                    </button>
                 </ul>

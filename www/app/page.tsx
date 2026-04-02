@@ -2,12 +2,12 @@ import Link from "next/link";
 
 export default function Home() {
   return (
-    <div className="min-h-full ">
-      <div className=" pl-14 pt-10 w-full mx-auto max-w-2xl h-full border-l border-gray-200 dark:border-gray-500">
+    <div className="min-h-full pt-10">
+      <div className=" pl-14 pt-10 w-full mx-auto max-w-2xl h-full ">
         <p>
           Hey satish this side. <br />I make intractive, accessible ui.
         </p>
-        <h1 className="text-xl pt-4 pb-4">Works</h1>
+        <h1 className="text-xl py-4">Works</h1>
         <div className="w-20">
           <WorkBtn />
         </div>

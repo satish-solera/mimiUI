@@ -36,7 +36,7 @@ export default function RootLayout({
       defaultTheme="system"
       enableSystem
       attribute="class">
-        <div className="py-2 pl-20 border-b dark:border-b-gray-500 border-b-gray-200">
+        <div className="py-2 pl-20 border-b dark:border-b-gray-500 border-b-gray-200 fixed top-0 w-full bg-[#ffffff] dark:bg-[#171717]">
         <Navbar/>
         </div>
         <div className="">
