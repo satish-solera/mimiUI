@@ -34,11 +34,10 @@ export default function ListPage (){
                     </div>
                 </div>
                 <div className="md:ml-40 ml-5 p-5">
-                    <p>Press arrow <span className="bg-neutral-100 dark:bg-neutral-800 py-px px-3 rounded-md ">Up</span> for prevous list item</p>
-                    <p className="pb-5">Press arrow <span className="bg-neutral-100 dark:bg-neutral-800 py-px px-3 rounded-md">Down</span> for next list item</p>
+                    <p>Press arrow <span className="dark:bg-neutral-800 bg-neutral-200 py-0.5 px-3 rounded-md ">Up</span> for prevous list item</p>
+                    <p className="pb-5">Press arrow <span className="dark:bg-neutral-800 bg-neutral-200 py-0.5 px-3 rounded-md">Down</span> for next list item</p>
                     <p className="py-2">Now supports</p>
                     <Description data={DataForSecond} />
-
                 </div>
             </div>
 
